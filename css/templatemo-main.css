@@ -21,7 +21,7 @@ body {
   font-size: 14px;
 }
 
-a { color: #3CC; }
+a { color: rgb(255, 255, 255); }
 
 a:hover { color: #FF0; }
 
