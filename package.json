@@ -1,0 +1,26 @@
+{
+  "name": "singlepageapp",
+  "version": "1.0.0",
+  "description": "Single Page Web App",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aridiosilva/landingpage.git"
+  },
+  "author": "Aridio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aridiosilva/landingpage/issues"
+  },
+  "homepage": "https://github.com/aridiosilva/landingpage#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0"
+  }
+}
