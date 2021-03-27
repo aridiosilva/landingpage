@@ -2,11 +2,11 @@
   "name": "singlepageapp",
   "version": "1.0.0",
   "description": "Single Page Web App",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "express": "^4.17.1",
-    "jquery": "^3.6.0"
+    "finalhandler": "^1.1.2",
+    "http": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1"
   }
 }
