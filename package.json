@@ -13,11 +13,14 @@
     "url": "git+https://github.com/aridiosilva/landingpage.git"
   },
   "author": "Aridio Silva",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aridiosilva/landingpage/issues"
   },
   "homepage": "https://github.com/aridiosilva/landingpage#readme",
+  "engines": {
+    "node": "v15.7.0"
+  },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "express": "^4.17.1",
