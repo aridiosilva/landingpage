@@ -1,10 +1,3 @@
-/* 
-
-Vanilla Template
-
-https://templatemo.com/tm-526-vanilla
-
-*/
 
 jQuery(document).ready(function($) {
 
@@ -19,11 +12,11 @@ jQuery(document).ready(function($) {
     });
 
 
-    $('body').scrollspy({ 
+    $('body').scrollspy({
         target: '.fixed-side-navbar',
         offset: 200
     });
-      
+
       // smoothscroll on sidenav click
 
     $('.tabgroup > div').hide();
@@ -38,13 +31,13 @@ jQuery(document).ready(function($) {
         $this.addClass('active');
         $(tabgroup).children('div').hide();
         $(target).show();
-      
+
     })
 
     var owl = $("#owl-testimonials");
 
       owl.owlCarousel({
-        
+
         pagination : true,
         paginationNumbers: false,
         autoPlay: 6000, //Set AutoPlay to 3 seconds
@@ -53,7 +46,7 @@ jQuery(document).ready(function($) {
         itemsDesktopSmall : [900,2], // betweem 900px and 601px
         itemsTablet: [600,1], //2 items between 600 and 0
         itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-        
+
     });
 
 
