@@ -1,0 +1,18 @@
+DNS request timed out.
+    timeout was 2 seconds.
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.

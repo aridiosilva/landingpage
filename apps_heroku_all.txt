@@ -1,0 +1,55 @@
+=== aridiosilva@aridiosilva.com Apps
+fathomless-retreat-69212
+
+fathomless-retreat-69212.herokuapp.com
+
+evening-snowdrop-trvpdkllfbxd9gu2xk93swz4.herokudns.com.
+
+=== aridiosilva@aridiosilva.com Apps
+
+heroku domains --help
+
+heroku domains:add www.aridiosilva.com --app fathomless-retreat-69212
+
+heroku domains:wait www.aridiosilva.com --app fathomless-retreat-69212
+
+heroku domains:infro www.aridiosilva.com
+
+heroku domains -a fathomless-retreat-69212
+
+heroku certs -a fathomless-retreat-69212
+
+
+heroku domains -a --app=fathomless-retreat-69212
+
+=== fathomless-retreat-69212 Heroku Domain
+fathomless-retreat-69212.herokuapp.com
+
+=== fathomless-retreat-69212 Custom Domains
+Domain Name         DNS 
+                    Record 
+                    Type    DNS Target                                              SNI Endpoint
+www.aridiosilva.com CNAME  evening-snowdrop-trvpdkllfbxd9gu2xk93swz4.herokudns.com  undefined
+
+
+
+C:\#  CURSOS2020\@ HOMEPAGE ARIDIOSILVA\web1
+
+
+To enable DNSSEC to a domain currently registered with Register.com®, 
+a Web.com™ company, email us the domain name and associated DNSSEC information
+and we will assist you. Specify if you would like to add, change or delete 
+the DNSSEC service.
+
+
+
+https://dns.google.com/query?name=aridiosilva.com&rr_type=ALL&ecs=
+
+https://toolbox.googleapps.com/apps/dig/#ANY/
+
+https://www.nslookup.io/dns-records/www.aridiosilva.com
+
+https://www.hpe.com/us/en/insights/articles/get-faster-internet-with-better-dns-1909.html
+
+https://dns.google/resolve?name=www.aridiosilva.com&type=ALL
+

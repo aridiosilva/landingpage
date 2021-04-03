@@ -1,0 +1,16 @@
+nslookup -type=NS aridiosilva.com
+
+
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+aridiosilva.com	nameserver = NS1.locaweb.com.br
+aridiosilva.com	nameserver = NS2.locaweb.com.br
+aridiosilva.com	nameserver = NS3.locaweb.com.br
+
+ns1.locaweb.com.br	AAAA IPv6 address = 2804:218:7000:0:186:202:8:254
+ns2.locaweb.com.br	AAAA IPv6 address = 2804:218:7001:0:187:45:248:254
+ns3.locaweb.com.br	AAAA IPv6 address = 2804:218:7002:0:189:126:101:254
+ns1.locaweb.com.br	internet address = 186.202.8.254
+ns2.locaweb.com.br	internet address = 187.45.248.254
+ns3.locaweb.com.br	internet address = 189.126.101.254

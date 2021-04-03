@@ -1,0 +1,11 @@
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+_dmarc.aridiosilva.com	text =
+
+	"v=DMARC1;p=quarantine;pct=100;fo=1"
+
+aridiosilva.com	nameserver = dns105.register.com
+aridiosilva.com	nameserver = dns106.register.com
+dns105.register.com	internet address = 207.204.40.65
+dns106.register.com	internet address = 207.204.21.66

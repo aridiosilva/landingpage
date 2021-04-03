@@ -1,0 +1,18 @@
+
+nslookup -type=TXT _amazonses.aridiosilva.com dns105.register.com
+
+Servidor:  UnKnown
+Address:  207.204.40.65
+
+_amazonses.aridiosilva.com	text =
+
+	"v+IC5MzxrDBjODjlpnobjOUvJuupMJq8egin73AVaBQ="
+
+
+nslookup -type=TXT _amazonses.aridiosilva.com ns1.locaweb.com.br
+
+
+
+Servidor:  UnKnown
+Address:  2804:218:7000:0:186:202:8:254
+

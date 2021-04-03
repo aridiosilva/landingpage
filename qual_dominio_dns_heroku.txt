@@ -1,0 +1,6 @@
+=== fathomless-retreat-69212 Heroku Domain
+fathomless-retreat-69212.herokuapp.com
+
+=== fathomless-retreat-69212 Custom Domains
+Domain Name         DNS Record Type DNS Target                                              SNI Endpoint 
+www.aridiosilva.com CNAME           evening-snowdrop-trvpdkllfbxd9gu2xk93swz4.herokudns.com undefined    

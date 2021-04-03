@@ -1,0 +1,89 @@
+	git config --list --show-origin > output.txt
+
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Users/Aridio Silva/.gitconfig	user.name=aridiosilva
+file:C:/Users/Aridio Silva/.gitconfig	user.email=aridiosilva@aridiosilva.com
+file:C:/Users/Aridio Silva/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Aridio Silva/.gitconfig	filter.lfs.required=true
+file:C:/Users/Aridio Silva/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Aridio Silva/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Aridio Silva/.gitconfig	credential.helper=wincred
+file:C:/Users/Aridio Silva/.gitconfig	gui.recentrepo=C:/Projeto_Python/EPs_Bernardo
+file:C:/Users/Aridio Silva/.gitconfig	gui.recentrepo=C:/Users/Aridio Silva/git/SAB
+file:C:/Users/Aridio Silva/.gitconfig	iser.email=aridiosilva@aridiosilva.com
+file:C:/Users/Aridio Silva/.gitconfig	core.editor='C:\Windows\System32\notepad.exe'
+file:C:/Users/Aridio Silva/.gitconfig	core.autocrlf=false
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/aridiosilva/landingpage.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	remote.heroku.url=https://git.heroku.com/mighty-hamlet-36495.git
+file:.git/config	remote.heroku.fetch=+refs/heads/*:refs/remotes/heroku/*
+
+        git remote -v  >> output.txt
+
+heroku	https://git.heroku.com/mighty-hamlet-36495.git (fetch)
+heroku	https://git.heroku.com/mighty-hamlet-36495.git (push)
+origin	https://github.com/aridiosilva/landingpage.git (fetch)
+origin	https://github.com/aridiosilva/landingpage.git (push)
+
+        git config --list --global >> output.txt       
+
+user.name=aridiosilva
+user.email=aridiosilva@aridiosilva.com
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+credential.helper=wincred
+gui.recentrepo=C:/Projeto_Python/EPs_Bernardo
+gui.recentrepo=C:/Users/Aridio Silva/git/SAB
+iser.email=aridiosilva@aridiosilva.com
+core.editor='C:\Windows\System32\notepad.exe'
+core.autocrlf=false
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/aridiosilva/landingpage.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+remote.heroku.url=https://git.heroku.com/mighty-hamlet-36495.git
+remote.heroku.fetch=+refs/heads/*:refs/remotes/heroku/*
+
+     git  config --list  --worktree >> output.txt
+
+
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/aridiosilva/landingpage.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+remote.heroku.url=https://git.heroku.com/mighty-hamlet-36495.git
+remote.heroku.fetch=+refs/heads/*:refs/remotes/heroku/*
