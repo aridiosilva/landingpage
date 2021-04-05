@@ -53,3 +53,6 @@ https://www.hpe.com/us/en/insights/articles/get-faster-internet-with-better-dns-
 
 https://dns.google/resolve?name=www.aridiosilva.com&type=ALL
 
+https://zone.vision/#/aridiosilva.com
+
+
