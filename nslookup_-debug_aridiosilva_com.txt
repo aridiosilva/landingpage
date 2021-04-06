@@ -1,0 +1,116 @@
+nskookup -debug aridiosilva.com
+
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 1, rcode = NXDOMAIN
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 0,  authority records = 1,  additional = 0
+
+    QUESTIONS:
+	5.0.0.0.2.3.1.0.3.1.2.0.1.8.1.0.0.0.0.0.1.0.0.0.d.4.1.0.4.0.8.2.ip6.arpa, type = PTR, class = IN
+    AUTHORITY RECORDS:
+    ->  0.8.2.ip6.arpa
+	ttl = 5745 (1 hour 35 mins 45 secs)
+	primary name server = NS.LACNIC.NET
+	responsible mail addr = hostmaster.LACNIC.NET
+	serial  = 2021040611
+	refresh = 1800 (30 mins)
+	retry   = 900 (15 mins)
+	expire  = 691200 (8 days)
+	default TTL = 10800 (3 hours)
+
+------------
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 2, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 0,  authority records = 1,  additional = 0
+
+    QUESTIONS:
+	aridiosilva.com, type = A, class = IN
+    AUTHORITY RECORDS:
+    ->  aridiosilva.com
+	ttl = 2438 (40 mins 38 secs)
+	primary name server = DNS105.REGISTER.com
+	responsible mail addr = root.REGISTER.com
+	serial  = 121040312
+	refresh = 10800 (3 hours)
+	retry   = 3600 (1 hour)
+	expire  = 604800 (7 days)
+	default TTL = 3600 (1 hour)
+
+------------
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 3, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 0,  authority records = 1,  additional = 0
+
+    QUESTIONS:
+	aridiosilva.com, type = AAAA, class = IN
+    AUTHORITY RECORDS:
+    ->  aridiosilva.com
+	ttl = 3600 (1 hour)
+	primary name server = DNS105.REGISTER.com
+	responsible mail addr = root.REGISTER.com
+	serial  = 121040312
+	refresh = 10800 (3 hours)
+	retry   = 3600 (1 hour)
+	expire  = 604800 (7 days)
+	default TTL = 3600 (1 hour)
+
+------------
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 4, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 0,  authority records = 1,  additional = 0
+
+    QUESTIONS:
+	aridiosilva.com, type = A, class = IN
+    AUTHORITY RECORDS:
+    ->  aridiosilva.com
+	ttl = 3568 (59 mins 28 secs)
+	primary name server = DNS105.REGISTER.com
+	responsible mail addr = root.REGISTER.com
+	serial  = 121040312
+	refresh = 10800 (3 hours)
+	retry   = 3600 (1 hour)
+	expire  = 604800 (7 days)
+	default TTL = 3600 (1 hour)
+
+------------
+------------
+Got answer:
+    HEADER:
+	opcode = QUERY, id = 5, rcode = NOERROR
+	header flags:  response, want recursion, recursion avail.
+	questions = 1,  answers = 0,  authority records = 1,  additional = 0
+
+    QUESTIONS:
+	aridiosilva.com, type = AAAA, class = IN
+    AUTHORITY RECORDS:
+    ->  aridiosilva.com
+	ttl = 3600 (1 hour)
+	primary name server = DNS105.REGISTER.com
+	responsible mail addr = root.REGISTER.com
+	serial  = 121040312
+	refresh = 10800 (3 hours)
+	retry   = 3600 (1 hour)
+	expire  = 604800 (7 days)
+	default TTL = 3600 (1 hour)
+
+------------
+Nome:    aridiosilva.com
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+Nome:    aridiosilva.com
+
