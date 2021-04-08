@@ -1,0 +1,20 @@
+Servidor:  UnKnown
+Address:  2804:14d:1:0:181:213:132:5
+
+aridiosilva.com
+	primary name server = dns105.register.com
+	responsible mail addr = root.register.com
+	serial  = 121040312
+	refresh = 10800 (3 hours)
+	retry   = 3600 (1 hour)
+	expire  = 604800 (7 days)
+	default TTL = 3600 (1 hour)
+aridiosilva.com	MX preference = 10, mail exchanger = inbound-smtp.us-east-1.amazonaws.com
+aridiosilva.com	text =
+
+	"v=spf1 include:amazonses.com ~all"
+aridiosilva.com	nameserver = dns106.register.com
+aridiosilva.com	nameserver = dns105.register.com
+
+dns105.register.com	internet address = 207.204.40.65
+dns106.register.com	internet address = 207.204.21.66
