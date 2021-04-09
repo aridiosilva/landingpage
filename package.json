@@ -1,7 +1,7 @@
 {
   "name": "singlepageapp",
   "version": "1.0.0",
-  "description": "Single Page Web App",
+  "description": "Single Page Web App Aridio Silva Domain",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
